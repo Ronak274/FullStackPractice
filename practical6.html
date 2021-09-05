@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-6</title>
+    <style>
+        img {
+            width: 100%;
+            border-radius: 8px;
+            height: 150px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding: 10px 0px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .divStyle {
+            background-color: white;
+            height: 350px;
+            width: 250px;
+            border-radius: 12px;
+            --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+            padding: 14px;
+            margin-left: 16px;
+        }
+
+        h1 {
+            font-size: medium;
+            text-align: center;
+        }
+
+        p {
+            font-size: medium;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body style="background-color: gainsboro;">
+    <h3 style="color: red;">Practical-6: Create a Card Layout using CSS layout properties.</h3>
+    <div style="padding: 10px; display: flex;">
+        <div class="divStyle">
+            <img src="https://d2sis3lil8ndrq.cloudfront.net/courses/2897.png" alt="HTML">
+            <div>
+                <h1>Introduction to HTML</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Maiores rerum dolor sunt tempora, repellat
+                    quae corrupti expedita mollitia quo error!</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" class="blue">Read
+                    More</a>
+            </div>
+        </div>
+        <div class="divStyle">
+            <img src="https://sabe.io/classes/css/hero.png" alt="CSS">
+            <div>
+                <h1>Introduction to CSS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Maiores rerum dolor sunt tempora, repellat
+                    quae corrupti expedita mollitia quo error!</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="red">Read
+                    More</a>
+            </div>
+        </div>
+        <div class="divStyle">
+            <img src="https://www.webdesignerdepot.com/cdn-origin/uploads/2019/07/featured_jquery.jpg" alt="JAVASCRIPT">
+            <div>
+                <h1>Introduction to JavaScript</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Maiores rerum dolor sunt tempora, repellat
+                    quae corrupti expedita mollitia quo error!</p>
+                <a href="https://www.javascript.com/" target="_blank" class="blue">Read
+                    More</a>
+            </div>
+        </div>
+        <div class="divStyle">
+            <img src="https://www.pragimtech.com/wp-content/uploads/2019/04/bootstrap.jpg" alt="BOOTSTRAP">
+            <div>
+                <h1>Introduction to Bootstrap</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Maiores rerum dolor sunt tempora, repellat
+                    quae corrupti expedita mollitia quo error!</p>
+                <a href="https://getbootstrap.com/" target="_blank" class="red">Read
+                    More</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
